@@ -128,7 +128,7 @@ template&lt;typename DerivedPolicy , typename InputIterator , typename UnaryFunc
 <div class="line">    <span class="comment">// note that using printf in a __device__ function requires</span></div>
 <div class="line">    <span class="comment">// code compiled for a GPU with compute capability 2.0 or</span></div>
 <div class="line">    <span class="comment">// higher (nvcc --arch=sm_20)</span></div>
-<div class="line">    printf(<span class="stringliteral">&quot;%d\n&quot;</span>);</div>
+<div class="line">    printf(<span class="stringliteral">&quot;%d\n&quot;</span>, x);</div>
 <div class="line">  }</div>
 <div class="line">};</div>
 <div class="line">...</div>
